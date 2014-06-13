@@ -1,5 +1,5 @@
 function createSessionID() {
-  return 'something unique-ish';
+  return (Math.random()*10e16).toString(26);
 }
 
 
